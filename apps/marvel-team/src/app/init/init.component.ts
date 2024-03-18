@@ -7,6 +7,11 @@ import { Component } from '@angular/core';
 })
 export class InitComponent {
   public readonly tabs = [{
-    label: 'Comics'
+    title: 'Comics',
+    content: 'Example'
+  },
+  {
+    title: 'Films',
+    content: 'Example'
   }]
 }
